@@ -1,4 +1,4 @@
-const { default: Neon, api, wallet, tx, rpc, CONST, nep5, u } = require("@cityofzion/neon-js");
+const { default: Neon, api, wallet, tx, rpc, CONST, nep5, u } = require("neo-cocos-sdk");
 var network = "http://seed2.neo.org:20332";
 var rpcClient = new rpc.RPCClient(network);
 cc.Class({
