@@ -6,21 +6,21 @@ neo-cocos-sdk is a NEO's JavaScript library for Cocos Creator, which is based on
 * [Cocos Creator](https://cocos2d-x.org/download)
 * neo-cocos-sdk
 ## 2. Using neo-cocos-sdk with Cocos Creator
-After you installed NodeJs and Cocos Creator, you can start building your blockchain games using Cocos Creator. 
+After installing NodeJs and Cocos Creator, developers can start building your blockchain games using Cocos Creator. 
 
-In order to demonstrate how to use neo-cocos-sdk with Cocos Creator, we provide a demo with basic wallet functions.  Once you finish this demo, you can explore more functions, such as creating transactions, writing smart contract and invocations.
+In order to demonstrate how to use neo-cocos-sdk with Cocos Creator, we provide a demo with basic wallet functions.  Once they finish this demo, they can explore more functions, such as creating transactions, writing smart contract and invocations.
 
- 1. Download and install [Cocos Creator](https://cocos2d-x.org/download).
- 2. Download the cocos demo code [here](./demo/cocosDemo).
+ 1. Download and install [Cocos Creator](https://cocos2d-x.org/download)
+ 2. Download the cocos demo code [here](./demo/cocosDemo)
  3. Integrate neo-cocos-sdk into the demo project
  \
- You need to run the following command to install neo-cocos-sdk package into your game project under `cocosDemo` main folder.
+ Developers need to run the following command to install neo-cocos-sdk package into their game project under `cocosDemo` main folder.
 
      ```JavaScript
      npm install neo-cocos-sdk
      ```
 
-    After installing neo-cocos-sdk, related `node-modules` will be downloaded into your project. 
+    After installing neo-cocos-sdk, related `node-modules` will be downloaded into the project. 
 
      <img src="../images/cocos-npm.png" alt="npm sdk" height="200">
      <img src="../images/cocos-folder.png" alt="folder" height="200">
@@ -53,24 +53,24 @@ In order to demonstrate how to use neo-cocos-sdk with Cocos Creator, we provide 
         rpcClient.getAccountState(address).then......
     }
     ```
- 6. Now you can open the `neoWallet` screen & click run button to see the result with browser mode 
+ 6. Now it is time to open the `neoWallet` screen & click run button to see the result with browser mode 
     \
     \
      <img src="../images/cocos-run.png" alt="run project" height="300">
     
-    You need to use encrypted key and password to open a wallet, and wallet balance will be queried automatically.
+    Encrypted key and password are required to open a wallet, and wallet balance will be queried automatically.
     \
     \
      <img src="../images/cocos-demo.png" alt="demo result" height="300">
 
-Once you finish all the steps above, you should have learned: 
+Once developers finish all the steps above, they should have learned: 
 * how to integrate neo-cocos-sdk into Cocos Creator 
 * how to write code to connect to NEO blockchain
 * how to use neo-cocos-sdk to communicate with NEO blockchain
 
-Now it is time to learn [NEO smart contract](../4.Smart_Contract_Development.md) and start building your NEO blockchain games with Cocos Creator. 
+Now it is time to learn [NEO smart contract](../4.Smart_Contract_Development.md) and start building NEO blockchain games with Cocos Creator. 
 
-For more functions and usages of neo-cocos-sdk, please refence to [neon-js docs](http://cityofzion.io/neon-js/docs/en/api/index.html).
+For more functions and usages of neo-cocos-sdk, please refer to [neon-js docs](http://cityofzion.io/neon-js/docs/en/api/index.html).
 
 ## 3. Sample
 *coming soon* 
