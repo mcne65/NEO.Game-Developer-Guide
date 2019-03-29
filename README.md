@@ -36,7 +36,12 @@ Considering different development requirements, NEO currently provides various S
 [Pleas click here](./2.NEO_SDK.md) for instructions and usage of all NEO SDKs.
 
 ### **3. Wallet Browser Extension**
-Apart from handling NEO wallets and transactions via NEO SDK within games and DApps, developers can also integrate NEO wallet browser extensions into their browser-based games or DApps to interact with NEO blockchain. In this way, the responsibilities of maintaining NEO wallet and guaranteeing the privacy and safety of users' private keys will be taken care of by the wallet provider. Developers can focus more on building their blockchain games and smart contracts. 
+Apart from handling NEO wallets and transactions via NEO SDK within games and DApps, developers can also integrate NEO wallet browser extensions into their browser-based games or DApps to interact with NEO blockchain. In this way, the responsibilities of maintaining NEO wallet and guaranteeing the privacy and safety of users' private keys will be taken care of by the wallet provider. Developers can focus more on building their blockchain games and smart contracts.
+
+Currently, developers can use one of the following extensions:
+* NEOLine
+* Teemo
+* O3
 
 [Pleas click here](./3.Wallet_Browser_Extension.md) for NEO wallet browser extension guide.
 
