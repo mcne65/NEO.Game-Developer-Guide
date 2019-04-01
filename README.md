@@ -3,7 +3,7 @@
 </div>
 
 # NEO.Game Developer Guide
-Welcome to the NEO.Game Developer Guide, one of NEO technical documentations to help developers to speed up the development of blockchain games or dApps on NEO. This guide includes all the useful resources that NEO provides, it covers all the tools and corresponding instructions that developers will need to build NEO games or aApps. The whole purpose is to make it as easy as possible to build, test and deploy games or dApps on NEO.
+Welcome to the NEO.Game Developer Guide, one of NEO technical documentations to help developers to speed up the development of blockchain games or dApps on NEO. This guide includes all the useful resources that NEO provides, it covers all the tools and corresponding instructions that developers will need to build NEO games or dApps. The whole purpose is to make it as easy as possible to build, test and deploy games or dApps on NEO.
 
 This guide provides the following support for blockchain game or dApp developers:
 1. How to set up NEO blockchain?
