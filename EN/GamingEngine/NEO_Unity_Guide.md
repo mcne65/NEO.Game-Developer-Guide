@@ -18,24 +18,24 @@ We provide a simple [Unity demo](https://github.com/CityOfZion/neo-lux/tree/mast
 3. Open the folder where you have saved the demo (`./neo-lux-master/Demos/NeoUnity`)
     \
     \
-     <img src="../images/unity-1.png" alt="open project" height="250">
+     <img src="../../images/unity-1.png" alt="open project" height="250">
 
 4. Import [neo-lux unity package](https://github.com/CityOfZion/neo-lux/raw/master/Unity/Neo.Lux.0.7.5.unitypackage)(`./neo-lux-master/Unity`) into your project
     \
     \
-     <img src="../images/unity-import.png" alt="open project" height="300">
+     <img src="../../images/unity-import.png" alt="open project" height="300">
     \
     \
-     <img src="../images/unity-neolux.png" alt="open project" height="300">
+     <img src="../../images/unity-neolux.png" alt="open project" height="300">
 5. Open demo scenes (double click)
     \
     \
-     <img src="../images/unity-demo.png" alt="open project" height="300">
+     <img src="../../images/unity-demo.png" alt="open project" height="300">
 6. Click play button to see the demo results
     \
      **NOTE**: if you are still receiving errors in the console window, you should go to top bar -> File -> Build Settings -> Player Settings -> Other Settings, and then set the API compatibility level to `.NET 4.x `.
     \
-     <img src="../images/unity-setting.png" alt="open project">
+     <img src="../../images/unity-setting.png" alt="open project">
 
 The code, which communicates with NEO blockchain, is written in NeoDemo.cs (`./neo-lux-master/Demos/NeoUnity/Assets/Scripts/NeoDemo.cs`)
 
