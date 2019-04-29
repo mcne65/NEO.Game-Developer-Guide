@@ -62,6 +62,7 @@
 
 * Unity
 * Cocos Creator
+* LayaAir
 
 [请点击这里](./5.游戏开发引擎支持.md) 看详细说明。
 
