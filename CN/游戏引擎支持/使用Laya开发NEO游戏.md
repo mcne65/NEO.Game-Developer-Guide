@@ -29,7 +29,7 @@ LayaAir会自动创建一个游戏模板，把NEO-SDK集成到该游戏中，开
 1. **初始化neo-SDK**
     
     在调用SDK前一定要初始化。
-    ```
+    ```javascript
     EasyCheers.SDK.init();
     ```
 2. **创建钱包**
@@ -41,7 +41,7 @@ LayaAir会自动创建一个游戏模板，把NEO-SDK集成到该游戏中，开
     *参数*：
     * `password`: 用于对私钥加密的密码
 
-    ```
+    ```javascript
     EasyCheers.SDK.createWallet(password, function(nep2key, wif):void {
             that.nep2key.text=nep2key;
             that.wif.text = wif;
@@ -56,7 +56,7 @@ LayaAir会自动创建一个游戏模板，把NEO-SDK集成到该游戏中，开
 
         *参数*：
         * `wif`: 生成钱包时，生成的WIF
-    ```
+    ```javascript
     EasyCheers.SDK.loginWif(wif, function(res):void {
             that.wifLoginState.text = res;
     })
@@ -66,7 +66,7 @@ LayaAir会自动创建一个游戏模板，把NEO-SDK集成到该游戏中，开
         *参数*：
         * `nep2Key`: 生成钱包时，对应生成的NEP-2 key
         * `password`：生成钱包时，输入的密码
-    ```
+    ```javascript
     EasyCheers.SDK.loginNep2(nep2Key, password, function(res):void {
             that.nep2LoginState.text = res;
     })
@@ -76,7 +76,7 @@ LayaAir会自动创建一个游戏模板，把NEO-SDK集成到该游戏中，开
         *参数*：
         * `password`：生成钱包时，输入的密码
         * `walletJson`：钱包文件的Json字符串
-    ```
+    ```javascript
     EasyCheers.SDK.login(password, walletJson) {
     })
     ```
@@ -84,7 +84,7 @@ LayaAir会自动创建一个游戏模板，把NEO-SDK集成到该游戏中，开
 
     当钱包打开以后，可以查看该钱包的 NEO & GAS 的余额。
 
-    ```
+    ```javascript
     EasyCheers.SDK.getBalances(function(neo, gas):void {
             that.resultLabel.text = "neo:" + neo + " gas:" + gas;
     })
@@ -100,7 +100,7 @@ LayaAir会自动创建一个游戏模板，把NEO-SDK集成到该游戏中，开
     * `toAddress`: NEO和GAS接收人的钱包地址
     * `amount`: 转账数额(NEO最小单位为1， GAS最小单位是小数点后8为)
 
-    ```
+    ```javascript
     EasyCheers.SDK.transferGlobalAsset(assetID, toAddress, amount, function(res):void {
             console.log("trade", '[Easy]', 'transferGlobalAsset.callback.function.res => ', res)
     })
@@ -115,7 +115,7 @@ LayaAir会自动创建一个游戏模板，把NEO-SDK集成到该游戏中，开
     * `contractHash`: 部署NEP-5合约上链以后，对应该合约生成的SciptHash
     * `toAddress`: NEO和GAS接收人的钱包地址
     * `amount`: 转账数额
-    ```
+    ```javascript
     window.EasyCheers.SDK.transferNep5(contractHash, toAddress, amount, function(res):void {
 		console.log("read", '[Easy]', 'invokescript.callback.function.res => ', res);
 	});
@@ -131,7 +131,7 @@ LayaAir会自动创建一个游戏模板，把NEO-SDK集成到该游戏中，开
     * `contractHash`: 部署合约上链以后，对应合约生成的SciptHash。
     * `method`: 需要调用合约的方法，例如：balanceOf, symbol, transfer, etc
     * `params`: 调用合约需要传递的参数以数组的形式传入，针对不同合约方法，传递的参数不同。
-    ```
+    ```javascript
     window.EasyCheers.tools.Contract.contractInvokeScrip(contractHash, method, params, function(res):void {
 		console.log("read", '[Easy]', 'invokescript.callback.function.res => ', res["stack"]);
 	});
@@ -144,7 +144,7 @@ LayaAir会自动创建一个游戏模板，把NEO-SDK集成到该游戏中，开
     * `contractHash`: 部署合约上链以后，对应合约生成的SciptHash。
     * `method`: 需要调用合约的方法，例如：balanceOf, symbol, transfer, etc
     * `params`: 调用合约需要传递的参数以数组的形式传入，针对不同合约方法，传递的参数不同。
-    ```
+    ```javascript
     var script = window.EasyCheers.tools.Contract.buildScript(contractHash, method, params);
     var res = await window.EasyCheers.tools.Contract.contractInvokeTrans_attributes(script);
     console.log("result is " + res);
