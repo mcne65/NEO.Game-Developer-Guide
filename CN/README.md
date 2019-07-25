@@ -13,9 +13,9 @@
 5. 如何集成NEO-SDK或者钱包插件到游戏引擎中开发游戏？
  
 除此之外，NEO的官方文档对下列细节也有详尽的解释，方便开发者提前查阅：
-* [DBFT 共识](https://docs.neo.org/zh-cn/basic/consensus/whitepaper.html)
-* [NEO 节点介绍](https://docs.neo.org/zh-cn/node/introduction.html)
-* [NEO API 参考](https://docs.neo.org/zh-cn/node/cli/latest-version/api.html), 等等.
+* [DBFT 共识](https://docs.neo.org/docs/zh-cn/basic/technology/dbft.html)
+* [NEO 节点介绍](https://docs.neo.org/docs/zh-cn/node/introduction.html)
+* [NEO API 参考](https://docs.neo.org/docs/zh-cn/reference/rpc/latest-version/api.html), 等等.
 
 
 ## 开发指南

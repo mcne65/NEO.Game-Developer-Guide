@@ -13,9 +13,9 @@ This guide provides the following support for blockchain game or dApp developers
 5. How to develop a blockchain game using gaming engine, NEO-SDK or wallet extension?
 
 In addition, NEO provides official technical documentation, explaining the following in detail (Please click on the following links to learn more): 
-* [DBFT Consensus](https://docs.neo.org/en-us/basic/consensus/whitepaper.html)
-* [NEO Node Introduction](https://docs.neo.org/en-us/node/introduction.html)
-* [NEO API Reference](https://docs.neo.org/en-us/node/cli/latest-version/api.html), and more.
+* [DBFT Consensus](https://docs.neo.org/docs/en-us/basic/consensus/whitepaper.html)
+* [NEO Node Introduction](https://docs.neo.org/docs/en-us/node/introduction.html)
+* [NEO API Reference](https://docs.neo.org/docs/en-us/node/cli/latest-version/api.html), and more.
 
 ## Development Guide
 This guide mainly focuses on NEO blockchain game development, but can aslo be applied to any dApp development. 
